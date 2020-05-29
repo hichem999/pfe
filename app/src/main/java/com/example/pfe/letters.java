@@ -13,9 +13,13 @@ import pl.droidsonroids.gif.GifImageButton;
 public class letters extends AppCompatActivity {
 
     private Button letter_a;
+    public MediaPlayer player;
 
 
     public void init() {
+        player = MediaPlayer.create(this, R.raw.cliquer_sur_une_lettre);
+        player.setLooping(false);
+        player.start();
         letter_a = findViewById(R.id.letter_a);
         final MediaPlayer mp = MediaPlayer.create(this, R.raw.letter_a_sound);
         letter_a.setOnClickListener(new View.OnClickListener() {
