@@ -3,4 +3,5 @@
     <string name="d_marrer">Démarrer</string>
     <string name="a_propos">A propos</string>
     <string name="consigne">Veuillez cliquer sur une lettre</string>
+    <string name="next_page_letters">Page Suivante</string>
 </resources>
