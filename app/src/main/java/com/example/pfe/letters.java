@@ -13,6 +13,7 @@ import pl.droidsonroids.gif.GifImageButton;
 public class letters extends AppCompatActivity {
 
     private Button letter_a;
+    private Button letter_d;
     public MediaPlayer player;
     private Button letters_next;
 
@@ -22,12 +23,23 @@ public class letters extends AppCompatActivity {
         player.setLooping(false);
         player.start();
         letter_a = findViewById(R.id.letter_a);
+        letter_d = findViewById(R.id.letter_d);
         final MediaPlayer mp = MediaPlayer.create(this, R.raw.letter_a_sound);
+        final MediaPlayer mp1 = MediaPlayer.create(this, R.raw.letter_d_sound);
         letter_a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mp.start();
                 Intent start = new Intent(letters.this, letterAExample1.class);
+                startActivity(start);
+                player.stop();
+            }
+        });
+        letter_d.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mp1.start();
+                Intent start = new Intent(letters.this, letterDExample1.class);
                 startActivity(start);
                 player.stop();
             }
