@@ -12,6 +12,8 @@ import android.widget.Button;
 public class home extends AppCompatActivity {
 
     private Button button_letters;
+    private Button button_numbers;
+
     public MediaPlayer player;
 
     public void init() {
@@ -23,6 +25,15 @@ public class home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent start = new Intent(home.this, letters.class);
+                startActivity(start);
+                player.stop();
+            }
+        });
+        button_numbers = findViewById(R.id.button_numbers);
+        button_numbers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent start = new Intent(home.this, numbers.class);
                 startActivity(start);
                 player.stop();
             }

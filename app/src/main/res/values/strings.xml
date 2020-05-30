@@ -4,4 +4,5 @@
     <string name="a_propos">A propos</string>
     <string name="consigne">Veuillez cliquer sur une lettre</string>
     <string name="next_page_letters">Page Suivante</string>
+    <string name="consigne_numbers">Veuillez cliquer sur un chiffre</string>
 </resources>
