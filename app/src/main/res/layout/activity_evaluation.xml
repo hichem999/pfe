@@ -4,28 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Number1Example"
-    android:background="@drawable/numbers_background2">
+    tools:context=".Evaluation"
+    android:background="@drawable/kids">
 
     <Button
-        android:id="@+id/speaker_number"
-        android:layout_width="81dp"
-        android:layout_height="86dp"
-        android:layout_marginEnd="168dp"
-        android:background="@drawable/speaker_button"
+        android:id="@+id/button_numbers_evaluation"
+        android:layout_width="146dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="232dp"
+        android:background="@drawable/oval_button"
+        android:text="@string/numbersEvaluation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.614" />
-
+        app:layout_constraintVertical_bias="0.147" />
     <Button
-        android:id="@+id/footballer"
-        android:layout_width="263dp"
-        android:layout_height="299dp"
-        android:layout_marginEnd="72dp"
-        android:background="@drawable/footballer"
+        android:id="@+id/button_letters_evaluation"
+        android:layout_width="146dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/oval_button"
+        android:text="@string/lettersEvaluation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.111" />
+        app:layout_constraintVertical_bias="0.147" />
 </androidx.constraintlayout.widget.ConstraintLayout>

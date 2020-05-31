@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LettersEvaluation"
+    android:background="@drawable/background_enfants">
+
+    <TextView
+        android:id="@+id/select_correct_letter"
+        android:layout_width="373dp"
+        android:layout_height="111dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="cursive"
+        android:text="@string/select_correct_letter_consigne"
+        android:textAllCaps="false"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <Button
+        android:id="@+id/letter_c"
+        android:layout_width="78dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="272dp"
+        android:background="@drawable/letter_c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <Button
+        android:id="@+id/letter_b"
+        android:layout_width="78dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="152dp"
+        android:background="@drawable/letter_b"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <Button
+        android:id="@+id/letter_a"
+        android:layout_width="78dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/letter_a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <Button
+        android:id="@+id/letter_e"
+        android:layout_width="78dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="248dp"
+        android:background="@drawable/letter_e"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
+
+    <Button
+        android:id="@+id/letter_d"
+        android:layout_width="78dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="92dp"
+        android:background="@drawable/letter_d"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,13 +9,12 @@ import android.widget.Button;
 
 public class Number1Example extends AppCompatActivity {
 
-    private Button speaker_button;
-    public MediaPlayer player;
+    private Button speaker_number;
 
     public void init() {
-        speaker_button = findViewById(R.id.speaker_button);
+        speaker_number = findViewById(R.id.speaker_number);
         final MediaPlayer mp = MediaPlayer.create(this, R.raw.number_1_example);
-        speaker_button.setOnClickListener(new View.OnClickListener() {
+        speaker_number.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mp.start();

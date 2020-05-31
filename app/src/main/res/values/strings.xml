@@ -5,4 +5,11 @@
     <string name="consigne">Veuillez cliquer sur une lettre</string>
     <string name="next_page_letters">Page Suivante</string>
     <string name="consigne_numbers">Veuillez cliquer sur un chiffre</string>
+    <string name="letters">Lettres</string>
+    <string name="numbers">chiffres</string>
+    <string name="numbersEvaluation">Evaluation Chiffres</string>
+    <string name="lettersEvaluation">Evaluation Lettres</string>
+    <string name="evaluationString">Evaluation</string>
+    <string name="selectCorrectNumber">Sélectionner le chiffre 1 parmi les chiffres suivants</string>
+    <string name="select_correct_letter_consigne">Sélectionnner la lettre A parmi les lettres suivantes</string>
 </resources>

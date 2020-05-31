@@ -9,12 +9,12 @@
     tools:context=".home">
 
     <Button
-        android:id="@+id/evaluation"
+        android:id="@+id/button_Evaluation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="224dp"
         android:background="@drawable/oval_button"
-        android:text="Evaluation"
+        android:text="@string/evaluationString"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="128dp"
         android:background="@drawable/oval_button"
-        android:text="Lettres"
+        android:text="@string/letters"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="128dp"
-        android:text="chiffres"
+        android:text="@string/numbers"
         android:background="@drawable/oval_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.801"

@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Number1Example"></activity>
+        <activity android:name=".LettersEvaluation"></activity>
+        <activity android:name=".NumbersEvaluation" />
+        <activity android:name=".Evaluation" />
+        <activity android:name=".Number1Example" />
         <activity android:name=".numbers" />
         <activity android:name=".letterDExample1" />
         <activity android:name=".letterAExample1" />
