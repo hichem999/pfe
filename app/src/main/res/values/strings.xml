@@ -12,4 +12,5 @@
     <string name="evaluationString">Evaluation</string>
     <string name="selectCorrectNumber">Sélectionner le chiffre 1 parmi les chiffres suivants</string>
     <string name="select_correct_letter_consigne">Sélectionnner la lettre A parmi les lettres suivantes</string>
+    <string name="aproposString">Cette application a été réalisé par Hichem Mabrouk et Marwa Dhifaoui afin d\'aider les enfants entre troisième et sixième année à la prononciation</string>
 </resources>

@@ -11,7 +11,7 @@
         android:layout_width="370dp"
         android:layout_height="152dp"
         android:layout_marginTop="68dp"
-        android:text="Cette application a été réalisé par Hichem Mabrouk et Marwa afin d'aider les enfants entre 9 et 12 ans à la prononciation "
+        android:text="@string/aproposString"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
