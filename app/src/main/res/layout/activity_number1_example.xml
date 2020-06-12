@@ -9,14 +9,14 @@
 
     <Button
         android:id="@+id/speaker_number"
-        android:layout_width="81dp"
-        android:layout_height="86dp"
-        android:layout_marginEnd="168dp"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="52dp"
         android:background="@drawable/speaker_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.614" />
+        app:layout_constraintVertical_bias="0.586" />
 
     <Button
         android:id="@+id/footballer"
@@ -28,4 +28,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.111" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578"
+        app:srcCompat="@drawable/number_1_example" />
 </androidx.constraintlayout.widget.ConstraintLayout>

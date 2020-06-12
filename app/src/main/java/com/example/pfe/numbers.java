@@ -47,45 +47,30 @@ public class numbers extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mp1.start();
-                /*Intent start = new Intent(letters.this, letterDExample1.class);
-                startActivity(start);
-                player.stop();*/
             }
         });
         number_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mp2.start();
-                /*Intent start = new Intent(letters.this, letterDExample1.class);
-                startActivity(start);
-                player.stop();*/
             }
         });
         number_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mp3.start();
-                /*Intent start = new Intent(letters.this, letterDExample1.class);
-                startActivity(start);
-                player.stop();*/
             }
         });
         number_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mp4.start();
-                /*Intent start = new Intent(letters.this, letterDExample1.class);
-                startActivity(start);
-                player.stop();*/
             }
         });
         number_6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mp5.start();
-                /*Intent start = new Intent(letters.this, letterDExample1.class);
-                startActivity(start);
-                player.stop();*/
             }
         });
 
